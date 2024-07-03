@@ -27,7 +27,7 @@ class Plates implements ViewInterface
             $this->options[$k] = (isset($overrides[$k])) ? $overrides[$k] : $v;
         }
 
-        $this->engine = new Engine($this->options['default_path'], ltrim($this->options['file_extension'], '.'));
+        $this->engine = new Engine(path($this->options['default_path']), ltrim($this->options['file_extension'], '.'));
         // @TODO ensure request is unique
         // $this->engine->loadExtension(new \League\Plates\Extension\URI($_SERVER['PATH_INFO']));
 
