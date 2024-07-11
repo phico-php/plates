@@ -33,7 +33,7 @@
   ],
   "require": {
     "php": "^8.0",
-    "indgy/blade-plates": "dev-main",
+    "indgy/blates": "dev-main",
     "phico/phico": "dev-main"
   },
   "require-dev": {
