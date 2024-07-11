@@ -28,12 +28,12 @@
     },
     {
       "type": "vcs",
-      "url": "https://github.com/indgy/blade-plates.git"
+      "url": "https://github.com/indgy/blates.git"
     }
   ],
   "require": {
     "php": "^8.0",
-    "indgy/blade-plates": "dev-add-blade-syntax",
+    "indgy/blade-plates": "dev-main",
     "phico/phico": "dev-main"
   },
   "require-dev": {
